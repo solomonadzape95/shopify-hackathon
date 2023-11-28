@@ -636,6 +636,11 @@ main {
     transform: scale(1);
   }
 }
+@media screen and (max-width: 720px){
+  .dropdown {
+  height: 150px;
+  overflow-y: hidden;
+}
 @media screen and (max-width: 610px) {
   .hidden-svg {
     display: block;
